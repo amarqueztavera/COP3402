@@ -1,0 +1,11 @@
+/*error checking assignment to procedure via call */
+var x,y,z,v,w;
+procedure a;
+  procedure b;
+    procedure c;
+      begin
+        a:=1;
+        x:=y+z+w
+      end;
+    begin
+      call x

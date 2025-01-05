@@ -1,0 +1,13 @@
+/*error checking assignment to procedure via read */
+var x,y,z,v,w;
+procedure a;
+  procedure b;
+    procedure c;
+      begin
+        z:=1;
+        x:=y+z+w
+      end;
+    begin
+      read a
+
+Error number 12: Assignment to constant or procedure is not allowed

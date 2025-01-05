@@ -1,0 +1,3 @@
+procedure 4;
+
+Error number 4: Const, var, and procedure must be followed by an identifier.

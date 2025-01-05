@@ -1,0 +1,9 @@
+var x,y,z,v,w;
+procedure a;
+  procedure b;
+    procedure c;
+      begin
+        x := b;
+        x:=y+z+w
+      end;
+    begin

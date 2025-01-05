@@ -1,0 +1,11 @@
+var x,y,z,v,w;
+procedure a;
+  procedure b;
+    procedure c;
+      begin
+        x := b;
+        x:=y+z+w
+      end;
+    begin
+
+Error number 21: Expression must not contain a procedure identifier
