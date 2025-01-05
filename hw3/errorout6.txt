@@ -1,0 +1,2 @@
+
+Error: Constant and variable declarations must be followed by a semicolon

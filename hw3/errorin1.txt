@@ -1,0 +1,16 @@
+const m = 7, n = 85;  
+var a,b,z,x;  
+/*procedure mult; 
+  var a, b;*/
+begin 
+   a := n;  
+   b := m; 
+   z := 0;   
+   /*while b > 0 do    
+    begin */
+      if x = 1 then z := z+a;       
+      a := 2*a; 
+      b := b/2;     
+    /*end*/
+    z := z + 1;
+end

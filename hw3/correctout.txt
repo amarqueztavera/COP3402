@@ -1,0 +1,72 @@
+Line    OP  L  M
+0      JMP  0  3
+1      INC  0 11
+2      LOD  0  5
+3      LOD  0  3
+4      OPR  0  1
+5      LOD  0  6
+6      OPR  0  2
+7      STO  0  4
+8      LIT  0 123
+9      LIT  0 89
+10     OPR  0  3
+11     STO  0  7
+12     LIT  0  2
+13     LIT  0 81
+14     OPR  0  4
+15     STO  0  8
+16     LIT  0  2
+17     OPR  0 11
+18     JPC  0 26
+19     LIT  0  9
+20     LIT  0  9
+21     OPR  0  5
+22     JPC  0 26
+23     LIT  0 123
+24     SYS  0  2
+25     JMP  0 19
+26     LIT  0 1234
+27     LIT  0  9
+28     OPR  0  6
+29     JPC  0 32
+30     SYS  0  1
+31     STO  0  5
+32     LIT  0 81
+33     LIT  0  2
+34     OPR  0  7
+35     JPC  0 38
+36     LIT  0 99
+37     SYS  0  2
+38     LIT  0  2
+39     LIT  0 81
+40     OPR  0  8
+41     JPC  0 52
+42     LIT  0 99
+43     LIT  0  8
+44     OPR  0  9
+45     JPC  0 52
+46     LOD  0  4
+47     LOD  0  6
+48     OPR  0 10
+49     JPC  0 52
+50     LIT  0 14
+51     SYS  0  2
+52     SYS  0  3
+
+
+Symbol Table:
+
+Kind |         Name | Value | Level | Address |  Mark
+-----------------------------------------------------
+   1 |            x |     2 |     0 |       0 |     1
+   1 |            y |    81 |     0 |       0 |     1
+   1 |       random |   123 |     0 |       0 |     1
+   2 |    procedure |     0 |     0 |       3 |     1
+   2 |         call |     0 |     0 |       4 |     1
+   2 |         else |     0 |     0 |       5 |     1
+   2 |         ifel |     0 |     0 |       6 |     1
+   2 |      testFac |     0 |     0 |       7 |     1
+   2 |       usedTo |     0 |     0 |       8 |     1
+   2 |       second |     0 |     0 |       9 |     1
+   2 |        third |     0 |     0 |      10 |     1
+

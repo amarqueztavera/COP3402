@@ -1,0 +1,12 @@
+const x = 2, y = 81, random = 123;
+var procedure, call, else, ifel, testFac, usedTo, second, third;
+
+begin
+	call := else + procedure - ifel;
+	testFac := (random * 89);
+	usedTo:= x / y;
+	if odd x then while 9 = 9 do write random;
+	if 1234 <> 9 then read else;
+	if y < x then write 99;
+	if x <= y then if 99 > 8 then if call >= ifel then write 14;
+end.

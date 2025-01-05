@@ -1,0 +1,4 @@
+var x, y;
+begin
+	if 1234 > 9
+end.
